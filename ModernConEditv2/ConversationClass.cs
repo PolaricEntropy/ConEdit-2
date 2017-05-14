@@ -111,10 +111,10 @@ namespace ModernConEditv2
 
         public class ConEvent
         {
-            struct eventType : EEventType { }
+            //struct eventType : EEventType { }
             String label;
             class nextEvent : ConEvent { }
-            class conversation : Conversation { }
+            //class conversation : Conversation { }
 
             public class ConEventAddCredits
             {

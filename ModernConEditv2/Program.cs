@@ -11,12 +11,15 @@ namespace ModernConEditv2
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /*
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIParent1());
+            Application.Run(new frmMDIMain());
         }
+         */
+        //because we cannot have two Main function.We are invoking everything from clsMain
     }
 }

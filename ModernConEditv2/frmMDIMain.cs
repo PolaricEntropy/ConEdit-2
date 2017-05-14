@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace ModernConEditv2
 {
-    public partial class MDIParent1 : Form
+    public partial class frmMDIMain : Form
     {
         private int childFormNumber = 0;
 
-        public MDIParent1()
+        public frmMDIMain()
         {
             InitializeComponent();
         }
 
         private void ShowNewForm(object sender, EventArgs e)
         {
-            Form childForm = new Form();
-            childForm.MdiParent = this;
-            childForm.Text = "Window " + childFormNumber++;
-            childForm.Show();
+            frmSChild objfrmSChild = frmSChild.GetChildInstance();
+            objfrmSChild.MdiParent = this;
+            objfrmSChild.Show();
+            objfrmSChild.BringToFront();
         }
 
         private void OpenFile(object sender, EventArgs e)
@@ -107,6 +107,12 @@ namespace ModernConEditv2
         private void fileMenu_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAbout objfrmAbout = new frmAbout();
+            objfrmAbout.ShowDialog();
         }
     }
 }

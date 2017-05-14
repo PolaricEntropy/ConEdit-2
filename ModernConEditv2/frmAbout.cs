@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace ModernConEditv2
 {
-    partial class AboutBox1 : Form
+    partial class frmAbout : Form
     {
-        public AboutBox1()
+        public frmAbout()
         {
             InitializeComponent();
             this.Text = String.Format("About {0}", AssemblyTitle);
@@ -101,5 +101,15 @@ namespace ModernConEditv2
             }
         }
         #endregion
+
+        private void logoPictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelProductName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
