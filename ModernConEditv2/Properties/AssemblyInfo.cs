@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ModernConEditv2")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("ConEdit v2")]
+[assembly: AssemblyDescription("Created by Hawk Bird of Caustic Creative for Deus Ex: Revision")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ModernConEditv2")]
+[assembly: AssemblyCompany("Caustic Creative")]
+[assembly: AssemblyProduct("ConEdit v2")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
