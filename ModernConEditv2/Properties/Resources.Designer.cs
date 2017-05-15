@@ -73,16 +73,6 @@ namespace ModernConEditv2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RevisionSplash1 {
-            get {
-                object obj = ResourceManager.GetObject("RevisionSplash1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap ss__2017_01_10_at_04_45_01_ {
             get {
                 object obj = ResourceManager.GetObject("ss+(2017-01-10+at+04.45.01)", resourceCulture);

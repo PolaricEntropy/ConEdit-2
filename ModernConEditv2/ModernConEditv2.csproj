@@ -46,10 +46,7 @@
   <ItemGroup>
     <Compile Include="classes\clsGlobal.cs" />
     <Compile Include="classes\clsMain.cs" />
-    <Compile Include="ConEvent.cs" />
-    <Compile Include="ConEventAddCredits.cs" />
-    <Compile Include="ConObject.cs" />
-    <Compile Include="ConversationClass.cs" />
+    <Compile Include="conClasses\ConversationClass.cs" />
     <Compile Include="frmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,9 +120,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\RevisionSplash.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\RevisionSplash1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ss+%282017-01-10+at+04.45.01%29.png" />
