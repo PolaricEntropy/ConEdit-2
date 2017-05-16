@@ -44,8 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="classes\clsGlobal.cs" />
-    <Compile Include="classes\clsMain.cs" />
+    <Compile Include="Classes\clsGlobal.cs" />
+    <Compile Include="Classes\clsMain.cs" />
     <Compile Include="conClasses\ConversationClass.cs" />
     <Compile Include="frmAbout.cs">
       <SubType>Form</SubType>
